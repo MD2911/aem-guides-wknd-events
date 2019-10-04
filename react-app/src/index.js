@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ModelManager, Constants } from '@adobe/cq-spa-page-model-manager';
@@ -7,6 +9,7 @@ import "./components/MappedComponents";
 import ScrollToTop from './utils/RouteHelper';
 import {BrowserRouter} from 'react-router-dom';
 import { Redirect, Route } from 'react-router';
+
 
 function render(model) {
     ReactDOM.render((

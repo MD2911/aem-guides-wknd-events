@@ -12,14 +12,14 @@ const AlertConfiguration = {
 };
 
 export default class AEMAlert extends Component {
-    render() {
+   render() {
         let innercontent = this.props.alertMessage;
-        // use React Bootstrap to display the alert below
         return (
             <Alert variant='info'>
                 {innercontent}
             </Alert>   
         );                 
+
     }
 }
 
