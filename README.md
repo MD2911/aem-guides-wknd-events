@@ -22,22 +22,6 @@ Note the number and order of chapters in each tutorial varies based on the logic
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
 * [Chapter 4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-4) (Latest code with tutorial companion coming soon...)
 
-## WKND Events - Angular
-
-[WKND Events for Angular and AEM SPA Editor - Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/angular.html)
-
-### Solution Branches on GitHub
-
-* [Chapter 0](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-0)
-* [Chapter 1](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-1)
-* [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-2)
-* [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-3)
-* [Chapter 4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-4)
-* [Chapter 5](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-5)
-* [Chapter 6](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-6)
-* [Chapter 7](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-7)
-* [Chapter 8](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/angular/chapter-8)
-
 ## Troubleshooting
 
 Having an issue? These troubleshooting tips might help:
