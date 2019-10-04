@@ -27,7 +27,6 @@ import com.day.cq.wcm.api.designer.Style;
 public class AlertImpl implements Alert {
 	
 	static final String RESOURCE_TYPE = "wknd-events/components/content/alert";
-	
 	static final String ALERT_MESSAGE = "alertMessage";
 	
 	

@@ -2,11 +2,6 @@ import React, {Component} from 'react';
 import {MapTo} from '@adobe/cq-react-editable-components';
 import Alert from 'react-bootstrap/Alert';
 
-	/**
- * Default Edit configuration for the Text component that interact with the Core Text component and sub-types
- *
- * @type EditConfig
- */
 const AlertConfiguration = {
 
     emptyLabel: 'Insert alert message',
