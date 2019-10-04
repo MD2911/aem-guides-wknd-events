@@ -22,7 +22,11 @@ Adobe Code as a base:
 * [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-2)
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
 
+Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. The extension from Chapter 3 includes the following:
 
+1. Creation of a Simple Custom Component: Customization of properties, integration with React BootStrap and custom Exporter
+1. Creation of a container component: How to work with dynamic container 
+1. Integration with Accordion in React BootStrap: Use the concept illustrated in #2 to integrate with a Accordion Component in Bootstrap
 
 ## Troubleshooting
 
