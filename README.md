@@ -16,11 +16,13 @@ Note the number and order of chapters in each tutorial varies based on the logic
 
 ### Solution Branches on GitHub
 
+Adobe Code as a base:
 * [Chapter 0](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-0)
 * [Chapter 1](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-1)
 * [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-2)
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
-* [Chapter 4](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-4) (Latest code with tutorial companion coming soon...)
+
+
 
 ## Troubleshooting
 
