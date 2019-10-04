@@ -1,14 +1,14 @@
-# WKND Events SPA Editor Project
+# WKND Events SPA Editor Project Extension
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
 
-View the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
+Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. The extension from Chapter 3 includes the following:
 
-## The Tutorials
+1. Creation of a Simple Custom Component: Customization of properties, integration with React BootStrap and custom Exporter
+1. Creation of a container component: How to work with dynamic container 
+1. Integration with Accordion in React BootStrap: Use the concept illustrated in #2 to integrate with a Accordion Component in Bootstrap
 
-There are two parallel versions of the Getting started with AEM SPA Editor tutorial, building on a fictional WKND Events application; one that builds the integration using React and the other with Angular. Other than the JavaScript frameworks used, both tutorials follow the same flow and build out the same capabilities.
-
-Note the number and order of chapters in each tutorial varies based on the logical development flow imposed by the relevant framework.
+To start, please view the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 
 ## WKND Events - React
 
@@ -22,11 +22,6 @@ Adobe Code as a base:
 * [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-2)
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
 
-Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. The extension from Chapter 3 includes the following:
-
-1. Creation of a Simple Custom Component: Customization of properties, integration with React BootStrap and custom Exporter
-1. Creation of a container component: How to work with dynamic container 
-1. Integration with Accordion in React BootStrap: Use the concept illustrated in #2 to integrate with a Accordion Component in Bootstrap
 
 ## Troubleshooting
 
