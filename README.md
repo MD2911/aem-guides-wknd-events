@@ -1,4 +1,4 @@
-# WKND Events SPA Editor Project Extension
+# WKND Events SPA Editor: Extended Examples
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
 
