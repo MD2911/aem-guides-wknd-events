@@ -23,7 +23,7 @@ Adobe Code as a base:
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
 
 Additional tutorial branch:
-* **react/chapter-4/custom-component**: Illustrate a simple Alert component using React Bootstrap to help understand how custom component work in AEM-React. See the [Wiki page for certain aspects of the code](./aem-guides-wknd-events/wiki/Creation-of-a-Simple-Custom-Component)
+* **react/chapter-4/custom-component**: Illustrate a simple Alert component using React Bootstrap to help understand how custom component work in AEM-React. See the [Wiki page for certain aspects of the code](/aem-guides-wknd-events/wiki/Creation-of-a-Simple-Custom-Component)
 
 ## Troubleshooting
 
