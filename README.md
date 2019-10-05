@@ -5,7 +5,7 @@ This is the code companion for a tutorial that walks through the process of sett
 Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. Note: The tutorial covers the basics based on my need, so it maybe different than what you are looking for. The extension from Chapter 3 includes the following:
 
 1. Creation of a Simple Custom Component: Customization of properties, integration with React BootStrap and custom Exporter
-1. Creation of a container component: How to work with dynamic container 
+1. Creation of a container component: How to work with dynamic container where each container can contain different type of AEM Components
 1. Integration with Accordion in React BootStrap: Use the concept illustrated in #2 to integrate with a Accordion Component in Bootstrap
 
 To start, please view the tutorial on HelpX: [Getting Started with the AEM SPA Editor - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
