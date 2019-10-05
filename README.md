@@ -2,7 +2,7 @@
 
 This is the code companion for a tutorial that walks through the process of setting up an AEM project to leverage the Single Page App or SPA Editor feature.
 
-Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. The extension from Chapter 3 includes the following:
+Aside from the implementation of Adobe, I am giving few more examples to show few more examples. This tutorial extends the Adobe Weekend Tutorial to cover few key-points that are common during the development. Note: The tutorial covers the basics based on my need, so it maybe different than what you are looking for. The extension from Chapter 3 includes the following:
 
 1. Creation of a Simple Custom Component: Customization of properties, integration with React BootStrap and custom Exporter
 1. Creation of a container component: How to work with dynamic container 
@@ -22,7 +22,7 @@ Adobe Code as a base:
 * [Chapter 2](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-2)
 * [Chapter 3](https://github.com/Adobe-Marketing-Cloud/aem-guides-wknd-events/tree/react/chapter-3)
 
-Additional tutorial branch:
+Additional tutorial branch that I created:
 * **react/chapter-4/custom-component**: Illustrate a simple Alert component using React Bootstrap to help understand how custom component work in AEM-React. See the [Wiki page for certain aspects of the code](https://github.com/MD2911/aem-guides-wknd-events/wiki/Creation-of-a-Simple-Custom-Component)
 
 ## Troubleshooting
