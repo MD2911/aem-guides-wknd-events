@@ -1,9 +1,3 @@
-/*
-    Text.js
-
-    Maps to wknd-events/components/content/text
-*/
-
 import React, {Component} from 'react';
 import {MapTo, ResponsiveGrid, withComponentMappingContext} from '@adobe/cq-react-editable-components';
 import Accordion from 'react-bootstrap/Accordion';
@@ -23,7 +17,6 @@ export default class MyAccordion extends ResponsiveGrid {
 
     render() {
         const items = [];
-
         for (const [index, value] of super.childComponents.entries()) {
             // each of the super.childComponents are enclosed in a div, therefore
             // we can always put them in whatever position we want
@@ -41,13 +34,18 @@ export default class MyAccordion extends ResponsiveGrid {
                     </Accordion.Collapse>
                 </Card> 
             ) ;
-        }      
-       
+        }  
+      
        // use React Bootstrap to render the Accordion with ANY AEM Components
         return (
-                 <div  {...super.containerProps}>
-                    <Accordion defaultActiveKey="0">
-                    </Accordion>    
+                <div>
+                     <div  {...super.containerProps}>
+                        <Accordion defaultActiveKey="0">
+                            {items}
+                        </Accordion>    
+                        {super.placeholderComponent}    
+                    </div> 
+
                     {super.placeholderComponent}    
                 </div>
             );    
@@ -55,5 +53,5 @@ export default class MyAccordion extends ResponsiveGrid {
 
 }
 
-MapTo('wknd-events/components/content/my-accordion')(withComponentMappingContext(MyAccordion));
+MapTo('wknd-events/components/content/myaccordion')(withComponentMappingContext(MyAccordion));
 
