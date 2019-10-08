@@ -24,7 +24,7 @@ Adobe Code as a base:
 
 Additional tutorial branch that I created:
 * **react/chapter-4/custom-component**: Illustrate a simple Alert component using React Bootstrap to help understand how custom component work in AEM-React. See the [Wiki page for certain aspects of the code](https://github.com/MD2911/aem-guides-wknd-events/wiki/Creation-of-a-Simple-Custom-Component)
-* **react/chapter-6/dynamic-container**: Illustrate the use of parsys to add other components into Accordion dynamically 
+* **react/chapter-6/dynamic-container**: Illustrate the use of parsys to add other components into Accordion dynamically. Key concepts are illustrated in the [corresponding Wiki Page](https://github.com/MD2911/aem-guides-wknd-events/wiki/Creation-of-Dynamic-Container)
 
 ## Troubleshooting
 
