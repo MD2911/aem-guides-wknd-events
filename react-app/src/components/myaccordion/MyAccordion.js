@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {MapTo, ResponsiveGrid, withComponentMappingContext} from '@adobe/cq-react-editable-components';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';

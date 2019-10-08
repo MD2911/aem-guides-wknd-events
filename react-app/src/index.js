@@ -22,7 +22,6 @@ function render(model) {
                     cqPath={ ModelManager.rootPath } locationPathname={ window.location.pathname }/>
             </ScrollToTop>
         </BrowserRouter>), 
-        document.getElementById('root'));
 }
 
 ModelManager.initialize({ path: process.env.REACT_APP_PAGE_MODEL_PATH }).then(render);

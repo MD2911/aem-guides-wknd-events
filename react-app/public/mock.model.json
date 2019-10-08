@@ -8,27 +8,97 @@
         "/content/wknd-events/react/home": {
             ":items": {
                 "root": {
-                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-                    "columnCount": 12,
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/alert",
+                                "title": "Alert Component"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                                "title": "Image"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                                "title": "List"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/myaccordion",
+                                "title": "My Accordion"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                                "title": "Text"
+                            }
+                        ]
+                    },
                     "columnClassNames": {
                         "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
                     },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
                     ":items": {
                         "responsivegrid": {
-                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
-                            "columnCount": 12,
+                            "allowedComponents": {
+                                "applicable": false,
+                                "components": [
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/alert",
+                                        "title": "Alert Component"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                                        "title": "Image"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                                        "title": "List"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/myaccordion",
+                                        "title": "My Accordion"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                                        "title": "Text"
+                                    }
+                                ]
+                            },
                             "columnClassNames": {
                                 "responsivegrid": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none",
                                 "responsivegrid_399366997": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none"
                             },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
+                            "columnCount": 12,
                             ":items": {
                                 "responsivegrid": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8",
                                         "list": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
                                             "text": "<h1>Home</h1>\r\n",
@@ -41,16 +111,23 @@
                                                 {
                                                     "url": "/content/wknd-events/react/home/first-article.html",
                                                     "path": "/content/wknd-events/react/home/first-article",
-                                                    "description": null,
                                                     "title": "First Article",
-                                                    "lastModified": 1539529744910
+                                                    "description": null,
+                                                    "lastModified": 1568213160518
                                                 },
                                                 {
                                                     "url": "/content/wknd-events/react/home/second-article.html",
                                                     "path": "/content/wknd-events/react/home/second-article",
-                                                    "description": null,
                                                     "title": "Second Article",
-                                                    "lastModified": 1539532397436
+                                                    "description": null,
+                                                    "lastModified": 1539529648773
+                                                },
+                                                {
+                                                    "url": "/content/wknd-events/react/home/new-article.html",
+                                                    "path": "/content/wknd-events/react/home/new-article",
+                                                    "title": "New Article",
+                                                    "description": null,
+                                                    "lastModified": 1570552872248
                                                 }
                                             ],
                                             "showDescription": false,
@@ -66,12 +143,16 @@
                                     ":type": "wcm/foundation/components/responsivegrid"
                                 },
                                 "responsivegrid_399366997": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "text_1183005514": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4",
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
                                             "text": "<h4>Sidebar heading</h4>\n",
@@ -115,20 +196,86 @@
         "/content/wknd-events/react/home/first-article": {
             ":items": {
                 "root": {
-                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-                    "columnCount": 12,
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/alert",
+                                "title": "Alert Component"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                                "title": "Image"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                                "title": "List"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/myaccordion",
+                                "title": "My Accordion"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                                "title": "Text"
+                            }
+                        ]
+                    },
                     "columnClassNames": {
                         "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
                     },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
                     ":items": {
                         "responsivegrid": {
-                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
-                            "columnCount": 12,
+                            "allowedComponents": {
+                                "applicable": false,
+                                "components": [
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wknd-events/components/content/alert",
+                                        "title": "Alert Component"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                                        "title": "Image"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                                        "title": "List"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wknd-events/components/content/myaccordion",
+                                        "title": "My Accordion"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/first-article/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                                        "title": "Text"
+                                    }
+                                ]
+                            },
                             "columnClassNames": {
                                 "text": "aem-GridColumn aem-GridColumn--default--12",
                                 "responsivegrid": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none",
                                 "responsivegrid_399366997": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none"
                             },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
+                            "columnCount": 12,
                             ":items": {
                                 "text": {
                                     "text": "<h1>First Article</h1>\n",
@@ -136,24 +283,30 @@
                                     ":type": "wknd-events/components/content/text"
                                 },
                                 "responsivegrid": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "image": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8",
                                         "text_279202033": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8",
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
-                                            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>\n",
+                                            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>\r\n",
                                             "richText": true,
                                             ":type": "wknd-events/components/content/text"
                                         },
                                         "image": {
                                             "alt": "California highway",
                                             "title": "California Highway",
-                                            "src": "/images/mock-image.jpeg",
-                                            "srcUriTemplate": "/content/wknd-events/react/home/first-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1539532290565.jpeg",
+                                            "src": "/content/wknd-events/react/home/first-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1568144605851/lance-asper-152203-unsplash.jpeg",
+                                            "srcUriTemplate": "/content/wknd-events/react/home/first-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1568144605851/lance-asper-152203-unsplash.jpeg",
+                                            "areas": [],
+                                            "uuid": "122ca431-19c3-4608-9bc7-d2527ac009f5",
                                             "lazyEnabled": false,
                                             "widths": [],
                                             ":type": "wknd-events/components/content/image"
@@ -172,12 +325,16 @@
                                     ":type": "wcm/foundation/components/responsivegrid"
                                 },
                                 "responsivegrid_399366997": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "text_1183005514": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4",
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
                                             "text": "<h4>Sidebar heading</h4>\n",
@@ -222,45 +379,117 @@
         "/content/wknd-events/react/home/second-article": {
             ":items": {
                 "root": {
-                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-                    "columnCount": 12,
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/alert",
+                                "title": "Alert Component"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                                "title": "Image"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                                "title": "List"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/myaccordion",
+                                "title": "My Accordion"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                                "title": "Text"
+                            }
+                        ]
+                    },
                     "columnClassNames": {
                         "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
                     },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
                     ":items": {
                         "responsivegrid": {
-                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
-                            "columnCount": 12,
+                            "allowedComponents": {
+                                "applicable": false,
+                                "components": [
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wknd-events/components/content/alert",
+                                        "title": "Alert Component"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                                        "title": "Image"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                                        "title": "List"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wknd-events/components/content/myaccordion",
+                                        "title": "My Accordion"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/second-article/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                                        "title": "Text"
+                                    }
+                                ]
+                            },
                             "columnClassNames": {
                                 "text": "aem-GridColumn aem-GridColumn--default--12",
                                 "responsivegrid": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none",
                                 "responsivegrid_399366997": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--offset--phone--0 aem-GridColumn--phone--none"
                             },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12",
+                            "columnCount": 12,
                             ":items": {
                                 "text": {
-                                    "text": "<h1>Update Second Article</h1>\n",
+                                    "text": "<h1>Second Article</h1>\r\n",
                                     "richText": true,
                                     ":type": "wknd-events/components/content/text"
                                 },
                                 "responsivegrid": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "image": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8",
                                         "text_279202033": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8",
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--8 aem-GridColumn--phone--8"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
-                                            "text": "<p>Lorem Update dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>\n",
+                                            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>\n",
                                             "richText": true,
                                             ":type": "wknd-events/components/content/text"
                                         },
                                         "image": {
                                             "alt": "Swirl",
                                             "title": "Movement art gallery",
-                                            "src": "/images/mock-image2.jpeg",
-                                            "srcUriTemplate": "/content/wknd-events/react/home/second-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1539532290585.jpeg",
+                                            "src": "/content/wknd-events/react/home/second-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1568144606017/lurm-484763-unsplash.jpeg",
+                                            "srcUriTemplate": "/content/wknd-events/react/home/second-article/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1568144606017/lurm-484763-unsplash.jpeg",
+                                            "areas": [],
+                                            "uuid": "40b71798-a78a-43e9-aa6f-654853a2c133",
                                             "lazyEnabled": false,
                                             "widths": [],
                                             ":type": "wknd-events/components/content/image"
@@ -279,12 +508,16 @@
                                     ":type": "wcm/foundation/components/responsivegrid"
                                 },
                                 "responsivegrid_399366997": {
-                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
-                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "applicable": false,
+                                        "components": []
+                                    },
                                     "columnClassNames": {
                                         "text_1183005514": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4",
                                         "text": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--4 aem-GridColumn--phone--4"
                                     },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--4 aem-Grid--tablet--12 aem-Grid--phone--12",
+                                    "columnCount": 12,
                                     ":items": {
                                         "text": {
                                             "text": "<h4>Sidebar heading</h4>\n",
@@ -325,6 +558,146 @@
             ":hierarchyType": "page",
             ":path": "/content/wknd-events/react/home/second-article",
             "title": "Second Article"
+        },
+        "/content/wknd-events/react/home/new-article": {
+            ":items": {
+                "root": {
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/alert",
+                                "title": "Alert Component"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                                "title": "Image"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                                "title": "List"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/myaccordion",
+                                "title": "My Accordion"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                                "title": "Text"
+                            }
+                        ]
+                    },
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    ":items": {
+                        "responsivegrid": {
+                            "allowedComponents": {
+                                "applicable": false,
+                                "components": [
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wknd-events/components/content/alert",
+                                        "title": "Alert Component"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                                        "title": "Image"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                                        "title": "List"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wknd-events/components/content/myaccordion",
+                                        "title": "My Accordion"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/new-article/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                                        "title": "Text"
+                                    }
+                                ]
+                            },
+                            "columnClassNames": {
+                                "image": "aem-GridColumn aem-GridColumn--default--12",
+                                "text": "aem-GridColumn aem-GridColumn--default--12",
+                                "myaccordion": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnCount": 12,
+                            ":items": {
+                                "text": {
+                                    "text": "<p> </p>\r\n<p> </p>\r\n<p>This is a new article</p>\r\n",
+                                    "richText": true,
+                                    ":type": "wknd-events/components/content/text"
+                                },
+                                "image": {
+                                    "alt": "Img",
+                                    "src": "/content/wknd-events/react/home/new-article/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1570552843285/upload-your-won-panoramic.jpeg",
+                                    "srcUriTemplate": "/content/wknd-events/react/home/new-article/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1570552843285/upload-your-won-panoramic.jpeg",
+                                    "areas": [],
+                                    "lazyEnabled": false,
+                                    "widths": [],
+                                    ":type": "wknd-events/components/content/image"
+                                },
+                                "myaccordion": {
+                                    ":items": {
+                                        "text": {
+                                            "text": "<p>Accordion 1</p>\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        },
+                                        "text_2061044219": {
+                                            "text": "<p>Accordion 2</p>\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        }
+                                    },
+                                    ":itemsOrder": [
+                                        "text",
+                                        "text_2061044219"
+                                    ],
+                                    ":type": "wknd-events/components/content/myaccordion"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "text",
+                                "image",
+                                "myaccordion"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":type": "wknd-events/components/structure/page",
+            ":hierarchyType": "page",
+            ":path": "/content/wknd-events/react/home/new-article",
+            "title": "New Article"
         }
     },
     "title": "React App"
