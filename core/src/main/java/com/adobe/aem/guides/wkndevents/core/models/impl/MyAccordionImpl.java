@@ -84,25 +84,30 @@ public class MyAccordionImpl implements MyAccordion {
 	}
 
 	/**
-	 * Returns a map (resource name => Sling Model class) of the given resource children's Sling Models that can be adapted to {@link T}.
+	 * Returns a map (resource name => Sling Model class) of the given 
+	 * resource children's Sling Models that can be adapted to {@link T}.
 	 *
 	 * @param slingRequest The current request.
 	 * @param modelClass  The Sling Model class to be adapted to.
-	 * @return Returns a map (resource name => Sling Model class) of the given resource children's Sling Models that can be adapted to {@link T}.
+	 * @return Returns a map (resource name => Sling Model class) 
+	 * of the given resource children's Sling Models that can be adapted to {@link T}.
 	 */
 	@Nonnull
-	private <T> Map<String, T> getItemModels(@Nonnull SlingHttpServletRequest slingRequest,
+	private <T> Map<String, T> getItemModels(
+			@Nonnull SlingHttpServletRequest slingRequest,
 			@Nonnull Class<T> modelClass) {
 		Map<String, T> itemWrappers = new LinkedHashMap<>();
 
-		Iterable<Resource> iterable = slingModelFilter.filterChildResources(request.getResource().getChildren());
+		Iterable<Resource> iterable = slingModelFilter.filterChildResources(
+				request.getResource().getChildren());
 
 		if (iterable == null) {
 			return itemWrappers;
 		}
 
 		for (final Resource child : iterable) {
-			itemWrappers.put(child.getName(), modelFactory.getModelFromWrappedRequest(slingRequest, child, modelClass));
+			itemWrappers.put(child.getName(), modelFactory.getModelFromWrappedRequest(
+					slingRequest, child, modelClass));
 		}
 
 		return  itemWrappers;
