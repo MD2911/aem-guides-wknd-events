@@ -1,5 +1,6 @@
 {
   "rewrites": [
+  	{ "source": "content/**/*.jpeg", "destination": "/images/mock-image.jpeg" },
   	{ "source": "content/**/*.json", "destination": "/mock.model.json" },
     { "source": "content/**", "destination": "/index.html" }
   ],
