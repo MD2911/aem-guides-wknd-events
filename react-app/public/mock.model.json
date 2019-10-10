@@ -127,7 +127,14 @@
                                                     "path": "/content/wknd-events/react/home/new-article",
                                                     "title": "New Article",
                                                     "description": null,
-                                                    "lastModified": 1570552872248
+                                                    "lastModified": 1570557889926
+                                                },
+                                                {
+                                                    "url": "/content/wknd-events/react/home/another-new-page.html",
+                                                    "path": "/content/wknd-events/react/home/another-new-page",
+                                                    "title": "Another new page",
+                                                    "description": null,
+                                                    "lastModified": 1570636515291
                                                 }
                                             ],
                                             "showDescription": false,
@@ -644,7 +651,7 @@
                             "columnCount": 12,
                             ":items": {
                                 "text": {
-                                    "text": "<p> </p>\r\n<p> </p>\r\n<p>This is a new article</p>\r\n",
+                                    "text": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>This is a new article. I am going to add new line</p>\r\n",
                                     "richText": true,
                                     ":type": "wknd-events/components/content/text"
                                 },
@@ -698,6 +705,127 @@
             ":hierarchyType": "page",
             ":path": "/content/wknd-events/react/home/new-article",
             "title": "New Article"
+        },
+        "/content/wknd-events/react/home/another-new-page": {
+            ":items": {
+                "root": {
+                    "allowedComponents": {
+                        "applicable": false,
+                        "components": [
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/alert",
+                                "title": "Alert Component"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/image",
+                                "title": "Image"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/list",
+                                "title": "List"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/myaccordion",
+                                "title": "My Accordion"
+                            },
+                            {
+                                "path": "/conf/wknd-events/settings/wcm/templates/wknd-events-page-template/structure/jcr:content/root/wknd-events/components/content/text",
+                                "title": "Text"
+                            }
+                        ]
+                    },
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    ":items": {
+                        "responsivegrid": {
+                            "allowedComponents": {
+                                "applicable": false,
+                                "components": [
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wknd-events/components/content/alert",
+                                        "title": "Alert Component"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wknd-events/components/content/image",
+                                        "title": "Image"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wknd-events/components/content/list",
+                                        "title": "List"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wknd-events/components/content/myaccordion",
+                                        "title": "My Accordion"
+                                    },
+                                    {
+                                        "path": "/content/wknd-events/react/home/another-new-page/jcr:content/root/responsivegrid/wknd-events/components/content/text",
+                                        "title": "Text"
+                                    }
+                                ]
+                            },
+                            "columnClassNames": {
+                                "image": "aem-GridColumn aem-GridColumn--default--12",
+                                "alert": "aem-GridColumn aem-GridColumn--default--12",
+                                "text": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnCount": 12,
+                            ":items": {
+                                "image": {
+                                    "lazyEnabled": true,
+                                    "widths": [],
+                                    ":type": "wknd-events/components/content/image"
+                                },
+                                "alert": {
+                                    "alertMessage": "This is my alert",
+                                    ":type": "wknd-events/components/content/alert"
+                                },
+                                "text": {
+                                    "text": "<p>This is new text. This is a live changes</p>\r\n",
+                                    "richText": true,
+                                    ":type": "wknd-events/components/content/text"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "image",
+                                "alert",
+                                "text"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":type": "wknd-events/components/structure/page",
+            ":hierarchyType": "page",
+            ":path": "/content/wknd-events/react/home/another-new-page",
+            "title": "Another new page"
         }
     },
     "title": "React App"
