@@ -5,13 +5,14 @@ import {BrowserRouter} from 'react-router-dom';
 import ScrollToTop from '../components/utils/RouteHelper';
 import App from '../components/App'
 import { Redirect, Route } from 'react-router';
+import fetch from "node-fetch";
+
 
 console.log("Path = " + process.env.GATSBY_APP_PAGE_MODEL_PATH );
 //ModelManager.initialize({ path: process.env.GATSBY_APP_PAGE_MODEL_PATH });
 
 let path = "";
 let root = <div></div>;
-let model = null;
 
 if (typeof window !== 'undefined') {
   path =  window.location.pathname ;
@@ -25,23 +26,22 @@ if (typeof window !== 'undefined') {
 export default class IndexPage extends React.Component {
 
     render() {
-        // create a async for later to handle with await
-        async function initModelManager() {
-            let p = ModelManager.initialize({ path: process.env.GATSBY_APP_PAGE_MODEL_PATH }).then((aemmodel) => {
-                    model = aemmodel;
-                }
-            );
+        let aem = {};
+        
+        /*ModelManager.initialize({ path: process.env.GATSBY_APP_PAGE_MODEL_PATH }).then((aemmodel) => {
+               aem.model = aemmodel;
+               console.log(aem.model);
+            }
+        );*/   
 
-            console.log(p);
-
-            // wait until init finished
-            await p;
-        }
-
-        initModelManager().catch(() => { console.log ("Error in fetching....")});
+        console.log("Done... Done.... Done... Done.... Done... Done.... " );
 
         return (
-            <div>Hello World</div>
+            <div id="root">HUH</div>
         )
+    }
+
+    componentDidMount() {
+         console.log("Component is mounted");
     }
 }
