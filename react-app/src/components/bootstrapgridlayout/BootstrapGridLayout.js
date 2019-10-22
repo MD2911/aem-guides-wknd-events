@@ -8,8 +8,6 @@ export default class BootstrapGridLayout extends ResponsiveGrid {
 
     render() {
         const items = [];
-        console.log("Bootstrap Grid Layout");
-        console.log(super.childComponents);
         for (const [index, value] of super.childComponents.entries()) {
             // each of the super.childComponents are enclosed in a div, therefore
             // we can always put them in whatever position we want
@@ -23,7 +21,8 @@ export default class BootstrapGridLayout extends ResponsiveGrid {
       
         return (
                 <div>
-                    Bootstrap ResponsiveGrid
+                    Bootstrap ResponsiveGrid<p/>
+
                      <div class="container">
                       <div class="row">
                         {items}
