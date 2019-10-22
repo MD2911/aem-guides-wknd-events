@@ -6,15 +6,15 @@ const fetch = require("node-fetch");
 global.fetch = fetch;
 
 exports.createPages = async ({ actions: { createPage } }) => {
-	console.log("Trying out promise");
-	console.log(adobe);
-	
 	// TODO: pass the URL from env variable... 
 	return adobe.ModelManager.initialize({ path: "http://localhost:5000/mock.model.json" }).then((model) => {
 	    createPage({
-			path: `/home`,
-			component: require.resolve('./src/templates/home.js'),
-			context: {model}
+			path: `/content/wknd-events/react/home`,
+			component: require.resolve('./src/templates/content/wknd-events/react/home/home.js'),
+			context: {
+				model, 
+				rootPath: "/content/wknd-events/react/home" 
+			}
 		});
     });	
 }

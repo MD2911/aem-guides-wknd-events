@@ -45,12 +45,9 @@ export default class MyAccordion extends ResponsiveGrid {
                         </Accordion>    
                         {super.placeholderComponent}    
                     </div> 
-
-                    {super.placeholderComponent}    
                 </div>
             );    
     }
-
 }
 
 MapTo('wknd-events/components/content/myaccordion')(withComponentMappingContext(MyAccordion));

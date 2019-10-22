@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Super important to set cq:isContainer as true so that it knows that it is the container -->
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	cq:isContainer="{Boolean}true"
+    jcr:primaryType="cq:Component"
+    jcr:title="Bootstrap Grid Layout"
+    sling:resourceSuperType="wcm/foundation/components/responsivegrid/"
+    componentGroup="WKND Events - Content"/>

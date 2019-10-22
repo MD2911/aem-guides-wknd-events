@@ -12,6 +12,11 @@ import { Redirect, Route } from 'react-router';
 
 
 function render(model) {
+    console.log("this is the model manager rootpath " + ModelManager.rootPath);
+    console.log(ModelManager);
+    console.log("{ ModelManager.rootPath } " + ModelManager.rootPath);
+    console.log("{window.location.pathname }"  + window.location.pathname );
+
 
     ReactDOM.render((
         <BrowserRouter>

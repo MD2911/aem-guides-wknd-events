@@ -4,7 +4,7 @@ import Alert from 'react-bootstrap/Alert';
 
 const AlertConfiguration = {
 
-    emptyLabel: 'Insert alert message',
+    emptyLabel: 'Insert alert message here...',
 
     isEmpty: function(props) {
         return !props || !props.alertMessage || props.alertMessage.trim().length < 1;
