@@ -10,3 +10,4 @@ require('./alert/AEMAlert');
 require('./myaccordion/MyAccordion');
 require('./bootstrapgridlayout/BootstrapGridLayout');
 require('./bootstraprow/BootstrapRow');
+require('./bootstrapcolumn/BootstrapColumn');
