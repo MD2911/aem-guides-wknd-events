@@ -38,8 +38,8 @@ export default class MyAccordion extends ResponsiveGrid {
       
        // use React Bootstrap to render the Accordion with ANY AEM Components
         return (
-                <div>
-                     <div  {...super.containerProps}>
+                <div class="bgColor">
+                     <div>
                         <Accordion defaultActiveKey="0">
                             {items}
                         </Accordion>    

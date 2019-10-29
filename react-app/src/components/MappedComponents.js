@@ -9,3 +9,4 @@ require('./list/List');
 require('./alert/AEMAlert');
 require('./myaccordion/MyAccordion');
 require('./bootstrapgridlayout/BootstrapGridLayout');
+require('./bootstraprow/BootstrapRow');

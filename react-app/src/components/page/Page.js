@@ -14,7 +14,7 @@ require('./Page.css');
  
      get containerProps() {
          let attrs = super.containerProps;
-         attrs.className = (attrs.className || '') + ' WkndPage ' + (this.props.cssClassNames || '');
+         attrs.className = (attrs.className || '') + 'Custom-Attr WkndPage ' + (this.props.cssClassNames || '');
          return attrs
      }
  }

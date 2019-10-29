@@ -1,5 +1,5 @@
 import React from 'react';
-import {MapTo, ResponsiveGrid, withComponentMappingContext} from '@adobe/cq-react-editable-components';
+import {MapTo, ResponsiveGrid, withComponentMappingContext, Utils} from '@adobe/cq-react-editable-components';
 
 export default class BootstrapGridLayout extends ResponsiveGrid {
     constructor(...args:any[]) {
@@ -7,26 +7,12 @@ export default class BootstrapGridLayout extends ResponsiveGrid {
     }
 
     render() {
-        const items = [];
-        for (const [index, value] of super.childComponents.entries()) {
-            // each of the super.childComponents are enclosed in a div, therefore
-            // we can always put them in whatever position we want
-            items.push(   
-
-                <div class="col-sm">
-                    {super.childComponents[index]}
-                </div>    
-            );
-        }  
-      
         return (
                 <div>
-                    Bootstrap ResponsiveGrid<p/>
+                    Bootstrap Responsive Grid<p/>
 
                      <div class="container">
-                      <div class="row">
-                        {items}
-                      </div>
+                       {super.childComponents}
                     </div>
                     {super.placeholderComponent}    
                 </div>
