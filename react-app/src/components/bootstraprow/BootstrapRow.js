@@ -41,6 +41,7 @@ export default class BootstrapRow extends ResponsiveGrid {
         console.log(rowDiv);
 
         // seriously, there is not enough documentation in AEM how to pull this out without doing this approach
+        // in theory the containerProps should work, but in this case, it didn't
         rowDiv.addClass("row");
     }
 }
