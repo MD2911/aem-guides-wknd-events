@@ -21,17 +21,6 @@ export default class BootstrapColumn extends ResponsiveGrid {
             
         ];
     }
-
-    componentDidMount() {
-        console.log("Component did mount for "+ this.cqPath);
-        // find cqDataPath
-        var rowDiv = $("div").find(`[data-cq-data-path='${this.cqPath}']`);
-        console.log(rowDiv);
-
-        // seriously, there is not enough documentation in AEM how to pull this out without doing this approach
-        // in theory the containerProps should work, but in this case, it didn't
-        rowDiv.addClass("col-sm");
-    }
 }
 
 MapTo('wknd-events/components/content/bootstrapcolumn')(withComponentMappingContext(BootstrapColumn));
