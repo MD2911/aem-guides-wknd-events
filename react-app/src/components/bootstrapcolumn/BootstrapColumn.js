@@ -14,10 +14,6 @@ export default class BootstrapColumn extends ResponsiveGrid {
     }
 
     render() {
-        console.log("Classname props " + this.props.customClassname);
-        console.log(this.props);
-        console.log("##################");
-        
         return [
             super.childComponents,
 

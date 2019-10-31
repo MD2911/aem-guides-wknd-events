@@ -13,11 +13,18 @@ export default class BootstrapRow extends ResponsiveGrid {
 
     render() {
         const items = [];
+
         for (const [index, value] of super.childComponents.entries()) {
+            var customClassname = "col-sm";
+
+            if (typeof super.childComponents[index].props.customClassname !== 'undefined') {
+                customClassname = super.childComponents[index].props.customClassname;
+            }
+
             // each of the super.childComponents are enclosed in a div, therefore
             // we can always put them in whatever position we want
             items.push(   
-                <div class="col-sm">
+                <div class={customClassname}>
                     {super.childComponents[index]}
                 </div>    
             );
