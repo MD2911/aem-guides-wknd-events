@@ -17,7 +17,6 @@ export default class BootstrapRow extends ResponsiveGrid {
             // each of the super.childComponents are enclosed in a div, therefore
             // we can always put them in whatever position we want
             items.push(   
-
                 <div class="col-sm">
                     {super.childComponents[index]}
                 </div>    

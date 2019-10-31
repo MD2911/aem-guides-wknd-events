@@ -16,7 +16,6 @@ import org.apache.sling.models.factory.ModelFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.adobe.aem.guides.wkndevents.core.models.MyAccordion;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ContainerExporter;
 import com.adobe.cq.export.json.SlingModelFilter;
@@ -27,12 +26,6 @@ public abstract class BaseCustomContainerImpl implements ComponentExporter, Cont
 
 	private static final Logger log = LoggerFactory.getLogger(BaseCustomContainerImpl.class);
 	private Map<String, ComponentExporter> childComponents = null;
-
-	@ScriptVariable
-	private ValueMap properties;
-
-	@ScriptVariable
-	private Style currentStyle;
 
 	@Self
 	private SlingHttpServletRequest request;
@@ -74,7 +67,7 @@ public abstract class BaseCustomContainerImpl implements ComponentExporter, Cont
 	 * of the given resource children's Sling Models that can be adapted to {@link T}.
 	 */
 	@Nonnull
-	private <T> Map<String, T> getItemModels(
+	protected <T> Map<String, T> getItemModels(
 			@Nonnull SlingHttpServletRequest slingRequest,
 			@Nonnull Class<T> modelClass) {
 		Map<String, T> itemWrappers = new LinkedHashMap<>();

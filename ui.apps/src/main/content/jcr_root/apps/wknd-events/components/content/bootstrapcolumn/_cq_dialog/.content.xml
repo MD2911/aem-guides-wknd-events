@@ -3,11 +3,11 @@
     xmlns:cq="http://www.day.com/jcr/cq/1.0" 
     xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
-    jcr:title="Alert Custom Dialog"
+    jcr:title="Bootstrap Dialog"
     sling:resourceType="cq/gui/components/authoring/dialog">
     <content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Column Classname"
+        jcr:title="Custom Column Classname"
         sling:resourceType="granite/ui/components/foundation/container"
         >
         <layout
@@ -27,11 +27,11 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/container">
                         <items jcr:primaryType="nt:unstructured">
-                            <alertMessage
+                            <customColumnClassname
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
-                                fieldLabel="Column ClassName"
-                                name="./columnClassName"/>
+                                fieldLabel="Column Class Name"
+                                name="./customColumnClassname"/>
                         </items>
                     </columns>
                 </items>

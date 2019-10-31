@@ -2,16 +2,22 @@ import React from 'react';
 import {MapTo, ResponsiveGrid, withComponentMappingContext, Utils} from '@adobe/cq-react-editable-components';
 import $ from 'jquery';
 
-export default class BootstrapColumn extends ResponsiveGrid {
-    cqPath: string;
+const BootstrapColumnConfiguration = {
+    isEmpty: function(props) {
+        return !props || !props.customColumnClassname || props.customColumnClassname.trim().length < 1;
+    }
+};
 
+export default class BootstrapColumn extends ResponsiveGrid {
     constructor(...args:any[]) {
         super(args); 
-        // specific AEM identifier where the DIV would be located
-        this.cqPath = this.props[0].cqPath;
     }
 
     render() {
+        console.log("Classname props " + this.props.customClassname);
+        console.log(this.props);
+        console.log("##################");
+        
         return [
             super.childComponents,
 
@@ -23,5 +29,4 @@ export default class BootstrapColumn extends ResponsiveGrid {
     }
 }
 
-MapTo('wknd-events/components/content/bootstrapcolumn')(withComponentMappingContext(BootstrapColumn));
-
+MapTo('wknd-events/components/content/bootstrapcolumn')(BootstrapColumn, BootstrapColumnConfiguration);
